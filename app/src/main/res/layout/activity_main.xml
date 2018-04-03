@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.example.shobhraj.message.MainActivity">
+
+  <EditText
+      android:inputType="phone"
+      android:id="@+id/mno"
+      android:hint="mobile number"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+    <EditText
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:gravity="left"
+        android:id="@+id/message1"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="enter your message here" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="send"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+</RelativeLayout>
